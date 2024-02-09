@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Food Chart</title>
+  </head>
+  <body>
+    <h1>Food Chart</h1>
+    <div class="selection">
+      <button listFood()>(1) list all the food items</button>
+      <button listFood(fruit)>(2) list all the food items with category vegetables</button>
+      <button listFood(vegetable)>(3) list all the food items with category fruit</button>
+      <button listFood(protein)>(4) list all the food items with category protein</button>
+      <button listFood(nuts)>(5) list all the food items with category nuts</button>
+      <button listFood(grains)>(6) list all the food items with category grains</button>
+      <button listFood(dairy)>(7) list all the food items with category dairy</button>
+      <button sortCalorie(asec)>(8) list all the food items with calorie above 100</button>
+      <button sortCalorie(dsec)>(9) list all the food items with calorie below 100</button>
+      <button sort(protein)>
+        (10) list all the food items with highest protein content to lowest
+      </button>
+      <button sort(carbs)>
+        (11) list all the food items with lowest cab content to highest
+      </button>
+    </div>
+
+    <div class="displayDiv">
+      <p id="display"></p>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

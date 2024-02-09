@@ -1,0 +1,24 @@
+.selection{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    width: 400px;
+    height: auto;
+    font-size: larger;
+}
+
+.displayDiv{
+    background-color: rgb(91, 75, 181);
+    width: 1900px;
+    height: 700px;
+}
+
+p{
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+    text-wrap: wrap;
+}
